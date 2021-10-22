@@ -10,7 +10,11 @@
   background-color: blue;
 }
 
-.navbar {
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 50px;
 }
 .header-row {
   padding: 10px;
