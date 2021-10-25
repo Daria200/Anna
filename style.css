@@ -15,8 +15,6 @@
 } */
 .header-row {
   padding: 10px;
-  background-image: url("./static/anna.jpg");
-  /* background: grey; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -36,8 +34,29 @@
   color: black;
   font-size: 30px;
 }
-.mark {
-  background-color: white;
-  opacity: 0.5;
-  z-index: -1;
+.header-text {
+  text-align: center;
+}
+.w3-section {
+  margin-left: 250px;
+}
+
+#border {
+  border: black;
+}
+
+.container {
+  background-image: url("./static/anna-main-photo.png");
+  background-size: cover;
+  background-position: bottom center;
+  height: 800px;
+  width: 1500px;
+  border: 0;
+  padding: 0 !important;
+  margin: 0;
+  /* height: 700px;
+  width: 100%; */
+}
+#header-text {
+  text-align: center !important;
 }
