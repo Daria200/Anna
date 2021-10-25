@@ -63,6 +63,15 @@
   margin-left: 250px;
 }
 
+.w3-bar-item-right {
+  padding: 8px 16px;
+  float: right;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+}
+
 .toggle-button {
   position: absolute;
   display: none;
@@ -119,13 +128,28 @@
     font-size: 12px;
   }
 
-  .w3-bar {
+  .w3-bar .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 1px;
   }
 
   .w3-bar .w3-button {
     font-size: 10px;
-    color: red;
   }
+  .w3-bar .w3-bar-item {
+    padding: 2px;
+  }
+
+  .w3-bar-item-right {
+    padding: 2px;
+  }
+
+  .w3-bar .navbar-links.active {
+    display: flex;
+  }
+
   /* hamburger */
   .container-3 {
     width: 30px;
