@@ -1,3 +1,7 @@
+* {
+  font-family: "Playfair Display", serif;
+}
+
 .container {
   background-image: url("./static/anna-main-photo.png");
   background-size: cover;
@@ -45,6 +49,22 @@
 }
 .grid {
   display: grid;
+}
+.display-right {
+  position: absolute;
+  top: 45%;
+  right: 0%;
+
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+}
+
+.display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 /* .sticky {
