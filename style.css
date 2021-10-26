@@ -1,5 +1,19 @@
 * {
-  font-family: "Playfair Display", serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.about {
+  padding: 15px;
+  margin: 15px;
+  border-bottom: 1px solid #b8b8b8;
+}
+
+.about-photo {
+  max-height: 600px;
+}
+
+.about-item {
+  padding: 15px;
 }
 
 .container {
@@ -34,6 +48,11 @@
   text-align: center;
 }
 
+.container-4 {
+  display: flex;
+  padding: 20px;
+}
+
 .header-text {
   color: black;
   font-size: 30px;
@@ -52,7 +71,7 @@
 }
 .display-right {
   position: absolute;
-  top: 45%;
+  top: 40%;
   right: 0%;
 
   transform: translate(0%, -50%);

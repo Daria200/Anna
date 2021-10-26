@@ -7,9 +7,11 @@
 <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link rel="stylesheet" href="./style.css">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -36,11 +38,11 @@
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="./static/anna-main-photo.png" alt="Architecture" width="1500" height="800">
+  <img class="w3-image main-photo" src="./static/anna-main-photo.png" alt="Architecture" width="1500" height="800">
     <div class="w3-display-middle display-right">
       <div class="header-text">Ваш стиль как отражение вашего внутреннего мира</div>
       <form action="https://docs.google.com/forms/d/1LOWWMe2O7D4UVPfhr4isjAZytd_0rLnjd3MZi7WaCd0/edit">
-        <button class="w3-button border w3-section w3-round-large " id="border" type="submit" value="Fill in the form">
+        <button class="w3-button border w3-section w3-round-large button-1" id="border" type="submit" value="Fill in the form">
         <i class="fa fa-paper-plane"></i> Заполнить анкету
         </button>
     </form>
@@ -51,13 +53,16 @@
 <div class="w3-content w3-padding" style="max-width:1564px">
 
   <!-- About Section -->
-  <div class="w3-container w3-padding-32" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Обо мне </h3>
-    <p>Привет! Меня зовут Аня.
-        Я бросила работу в полиции ради моды и теперь работаю персональным стилистом. Помогаю своим клиентам почувствовать себя уверенней и вдохновляю развивать внешнюю и внутреннюю красоту.
-        Ниже представлен список моих услуг, их подробное описание, а также анкета для нашего знакомства.
-        
-    </p>
+  <div>
+  <h3 class="about" id="about">Обо мне</h3>
+  </div>
+
+  <div class='container-4'>    
+    <img class="about-photo about-item" src="/static/anna-about.jpg" alt="">
+    <p class="about-item">Привет! Меня зовут Аня.
+      Я бросила работу в полиции ради моды и теперь работаю персональным стилистом. Помогаю своим клиентам почувствовать себя уверенней и вдохновляю развивать внешнюю и внутреннюю красоту.
+      Ниже представлен список моих услуг, их подробное описание, а также анкета для нашего знакомства.
+  </p>
   </div>
 
  <br>
@@ -69,25 +74,25 @@
  <div id="service">
   <div class="container-1">
     <div class="box-1">
-      <img src="/static/service.png" alt="">
+      <img src="/static/service1.JPG" alt="">
       <h5>Разбор гардероба</h5>
       <p>Цена</p>
       <button class="w3-button w3-white w3-border">Подробнее</button>
     </div>
     <div class="box-1">
-      <img src="/static/service.png" alt="">
+      <img src="/static/service2.JPG" alt="">
       <h5>Шопинг-сопровождение</h5>
       <p>Цена</p>
       <button class="w3-button w3-white w3-border">Подробнее</button>
     </div>
     <div class="box-1">
-      <img src="/static/service.png" alt="">
+      <img src="/static/service3.JPG" alt="">
       <h5>Карта стиля</h5>
       <p>Цена</p>
       <button class="w3-button w3-white w3-border">Подробнее</button>
     </div>
     <div class="box-1">
-      <img src="/static/service.png" alt="">
+      <img src="/static/service4.JPG" alt="">
       <h5>Экспресс-советы</h5>
       <p>Цена</p>
       <button class="w3-button w3-white w3-border">Подробнее</button>
@@ -110,6 +115,10 @@
 </footer>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</script>
 <script src="script.js" defer></script>
 </body>
 </html>
