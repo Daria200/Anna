@@ -2,6 +2,11 @@
   font-family: "Forum", cursive;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 .about {
   padding: 20px;
   margin: 20px;
@@ -19,6 +24,10 @@
 
 #insta-logo {
   height: 20px;
+}
+
+.footer-inta-logo {
+  background-color: white;
 }
 
 p.about-item-2 {
@@ -46,12 +55,29 @@ p.about-item-2 {
   justify-content: space-around;
 }
 
+.container-5 {
+  display: flex;
+  padding: 20px;
+}
+
+.container-5 p {
+  font-size: 20px;
+}
+
 .box-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 5px;
+  margin-bottom: 50px;
+}
+
+.box-2 {
+  padding: 20px;
+}
+.box-2 img {
+  width: 300px;
 }
 
 .container-1 img {
@@ -75,11 +101,20 @@ p.about-item-2 {
   text-align: center;
 }
 
+.padding {
+  padding: 8px 16px;
+}
+
 .portrait {
   width: 400px;
   top: 100px;
   left: 100px;
 }
+.service h1 {
+  margin-top: 100px;
+  padding: 20px;
+}
+
 .grid {
   display: grid;
 }
@@ -167,6 +202,10 @@ p.about-item-2 {
     justify-content: space-around;
   }
 
+  .padding {
+    padding: 16px 16px;
+  }
+
   .w3-section {
     margin-top: 16px !important;
     margin-bottom: 16px !important;
@@ -187,7 +226,7 @@ p.about-item-2 {
   }
 
   .about-photo {
-    height: 300px;
+    height: 250px;
   }
 
   p.about-item-2 {
