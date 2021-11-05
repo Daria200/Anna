@@ -254,7 +254,8 @@ p.about-item-2 {
   }
   .box-2 {
     font-size: 10px;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .box-2 img {
