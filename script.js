@@ -3,7 +3,6 @@ const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
 toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active')
-    console.log('click')
   }) 
 
 const mainphoto = document.querySelector('.main-photo');
